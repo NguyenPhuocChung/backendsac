@@ -3,7 +3,7 @@ const Transaction = require("../models/userModels"); // Assuming you have a Tran
 const User = require("../models/userModels"); // Đảm bảo dùng đúng mô hình User
 const nodemailer = require("nodemailer");
 // Import bcrypt
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 // Hàm gửi OTP qua email
 const sendOTP = async (to, otp) => {

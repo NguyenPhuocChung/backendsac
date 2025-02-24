@@ -1,5 +1,5 @@
 const User = require("../models/userModels");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const nodemailer = require("nodemailer");
 
 // Thiết lập transporter của Nodemailer (Gửi Gmail)
